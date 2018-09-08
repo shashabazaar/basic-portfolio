@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+}
+
+body  {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #777777;
+  background: url(https://www.toptal.com/designers/subtlepatterns/bananas/) repeat;
+}
+
+
+header  {
+  background: #ffffff;
+  border-bottom: 7px solid #ccc;
+  margin-bottom: 25px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+}
+
+header h1{
+  background: #4aaaa5;
+  color: #ffffff;
+  display: inline-block;
+  padding: 25px;
+  font-size: 30px;
+}
+
+nav{
+  width: 300px;
+  float:right;
+  margin-top: 25px;
+  text-align: center;
+}
+
+nav ul li a {
+  display: inline;
+}
+
+nav ul li a {
+  color: darkslategrey;
+  font-size: 18px;
+  padding: 5px 15px;
+  border-right: 2px solid #4aaaa5;
+  text-decoration: none;
+}
+
+nav ul li:last-child a {
+  border-right: none;
+  padding-right: none;
+}
+
+.container  {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.inline-img {
+  float:left;
+  margin: 0 17px 0;
+  border: 2px solid #777777;
+}
+
+.clearfix {
+  display: block;
+  clear:
+}
+
+#left-column, #right-column {
+  background: #ffffff;
+  padding: 25px;
+  border: 3px solid #ccc;
+}
+#left-column h2  {
+  font-size: 23px;
+  padding: 17px 0;
+  margin-bottom:  22px;
+  border-bottom: 3px solid #ccc;
+
+p{
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+.container  {
+  width: 960px;
+}
